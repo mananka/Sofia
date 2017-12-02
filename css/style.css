@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.banner{
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    display: table;
+    padding: 15px;
+    
+}
+.banner-title{
+    color: white;
+    font-size: 70px;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.menu{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 700;
+    line-height: 30px;
+    
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 0 15px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;   
+}
+
+.menu ul{
+    display: block;
+    text-align: right;
+}
+
+.menu li a{
+    color: white;
+    transition: all 350ms ease;
+}
+
+.menu li a:hover{
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.text-block {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    font-family: "Times new Roman", sans-serif; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.text-block .title1{
+    color: #b2b2b2;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.text-block p{
+    line-height: 1.5;
+}
+
+.services .img-wrap{
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.services .title{
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #1b1b1b;
+    text-align: center;  
+}
+
+.services .description{
+    color: #b2b2b2;
+    font-size: 14px;
+    font-family: "Times new Roman", sans-serif;
+    line-height: 2;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.services{
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width:767px){
+    .col-xs-12{
+        width:100%;
+    }}
+
+.logos .img-wrap{
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+    
+.partners{
+    background-color: rgb(245, 245, 245);
+}
+
+.lineofimages{
+    text-align: justify;
+    text-align-last: justify;
+    margin-bottom: 100px;
+}
+
+.lineofimages a{
+    background-color: white;
+    padding: 60px 50px;
+    margin: 0 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.lineofimages img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
